@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a **URL Shortener** application with ASP.NET MVC and Entity Framework. The application allows users to shorten URLs, navigate using the shortened equivalents, and manage URLs with detailed access control based on user roles (Admin, Authorized User, and Anonymous User).
+This project implements a **URL Shortener** application with ASP.NET MVC, Angular, and Entity Framework. The application allows users to shorten URLs, navigate using the shortened equivalents, and manage URLs with detailed access control based on user roles (Admin, Authorized User, and Anonymous User).
 
 ---
 
@@ -46,5 +46,6 @@ This project implements a **URL Shortener** application with ASP.NET MVC and Ent
 ## Technical Stack
 
 - **ASP.NET MVC** (Framework or Core)
+- **Angular** (Latest version)
 - **Entity Framework Code-First** for database management
 - **Unit Testing Framework** (e.g., xUnit, NUnit, MSTest)

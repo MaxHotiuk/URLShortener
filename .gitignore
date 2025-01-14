@@ -69,6 +69,40 @@ env.development.local
 /.vs/
 .vscode/
 
+# Database Files
+*.mdf
+*.ldf
+
 # Temporary Generated Files
 Generated/
 .g.dart
+
+# Angular-specific Files and Folders
+/node_modules/        # Dependencies folder
+/dist/                # Build output
+/.angular/            # Angular cache
+/.angular.json        # Angular CLI configuration cache
+/.browserlistrc       # Browserslist configuration cache
+/.editorconfig        # Editor configuration
+/package-lock.json    # NPM lock file
+/npm-debug.log*       # NPM debug logs
+/yarn.lock            # Yarn lock file (if applicable)
+/coverage/            # Code coverage output
+
+# Environment and Configuration Files
+/src/environments/environment*.ts   # Environment-specific settings
+/src/assets/**/*.secret             # Secret files in assets (example)
+
+# Temporary and Log Files
+*.log                  # Log files
+*.temp                 # Temp files
+*.tmp                  # Temp files
+
+# IDE Specific
+.idea/                 # WebStorm/JetBrains IDE settings
+.vscode/               # Visual Studio Code settings
+
+# Backup Files
+*.bak                  # Backup files
+*.swp                  # Swap files
+*~
