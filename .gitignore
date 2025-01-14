@@ -1,0 +1,74 @@
+# Folders to Include
+!/MVC
+!/Tests
+
+# User-Specific Files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build Artifacts
+bin/
+obj/
+out/
+
+# Visual Studio Cache Files
+.vs/
+.vscode/
+
+# Configuration Files
+*.config
+appsettings.json
+appsettings.Development.json
+appsettings.*.json # Optionally ignore all environment-specific appsettings files
+
+# Logs
+*.log
+Logs/
+
+# Temporary Files
+*.tmp
+*.temp
+*.pid
+*.cache
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Publish Outputs
+publish/
+wwwroot/dist/
+wwwroot/lib/
+
+# Dependency and Lock Files
+project.lock.json
+project.fragment.lock.json
+
+# Tools
+.env
+.env.*.local
+tools/
+.rebuild
+
+# Azure and Deployment Files
+*.publishsettings
+.env.local
+.env.production
+env.development.local
+
+# Backup Files
+*.bak
+*.swp
+*~
+
+# Other IDE-Specific Directories
+/.vs/
+.vscode/
+
+# Temporary Generated Files
+Generated/
+.g.dart
